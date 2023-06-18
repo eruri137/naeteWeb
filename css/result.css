@@ -1,0 +1,68 @@
+#result {
+  margin: auto;
+  display: none;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+
+.resultname {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 15px;
+  /* border: 1px solid green; */
+}
+
+.resultDesc {
+  /* border: 1px solid blue; */
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+/*kakao button*/
+.kakao {
+  color: #000000;
+  background-color: #fee500;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: #fee510;
+  color: #000000;
+}
+
+/*gohome button*/
+.gohome {
+  background-color: blue;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: #000000;
+}
+
+.testShareTitle {
+  /* border: 1px solid green; */
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+
+.resultHead {
+  /* border: 1px solid brown; */
+  padding-top: 85px;
+  /* header 때문에 발생하는 잘림 방지를 위해 여백 추가 */
+}
